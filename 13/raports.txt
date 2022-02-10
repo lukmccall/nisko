@@ -1,0 +1,62 @@
+ Performance counter stats for './cache':
+
+            493038      cache-references                                            
+            132877      cache-misses              #   26.951 % of all cache refs    
+         930669760      cycles                                                      
+        1055166198      instructions              #    1.13  insn per cycle         
+         132674214      branches                                                    
+               192      faults                                                      
+                 0      migrations                                                  
+
+       0.303721785 seconds time elapsed
+
+       0.300227000 seconds user
+       0.000000000 seconds sys
+
+ Performance counter stats for './cache':
+
+           1075234      cache-references                                            
+            101246      cache-misses              #    9.416 % of all cache refs    
+         609886890      cycles                                                      
+        1055019329      instructions              #    1.73  insn per cycle         
+         132648602      branches                                                    
+               191      faults                                                      
+                 0      migrations                                                  
+
+       0.196065250 seconds time elapsed
+
+       0.195420000 seconds user
+       0.000000000 seconds sys
+
+ Performance counter stats for './cache2':
+
+           4659.78 msec task-clock                #    0.995 CPUs utilized          
+               135      context-switches          #    0.029 K/sec                  
+                 4      cpu-migrations            #    0.001 K/sec                  
+               144      page-faults               #    0.031 K/sec                  
+       14546736385      cycles                    #    3.122 GHz                    
+        7547274534      instructions              #    0.52  insn per cycle         
+        1969125586      branches                  #  422.579 M/sec                  
+         323725634      branch-misses             #   16.44% of all branches        
+
+       4.684062343 seconds time elapsed
+
+       4.647054000 seconds user
+       0.016025000 seconds sys
+
+ Performance counter stats for './cache2':
+
+           1703.90 msec task-clock                #    0.986 CPUs utilized          
+                80      context-switches          #    0.047 K/sec                  
+                 5      cpu-migrations            #    0.003 K/sec                  
+               144      page-faults               #    0.085 K/sec                  
+        5250499216      cycles                    #    3.081 GHz                    
+        7592599601      instructions              #    1.45  insn per cycle         
+        1976334719      branches                  # 1159.886 M/sec                  
+            429575      branch-misses             #    0.02% of all branches        
+
+       1.727983230 seconds time elapsed
+
+       1.702333000 seconds user
+       0.003978000 seconds sys
+
